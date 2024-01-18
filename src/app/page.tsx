@@ -1,4 +1,4 @@
-import SeoMeta from './components/seo'
+
 import Banner from './components/banner'
 import Business_Expense from './components/business-expens'
 import Services from './components/services'
@@ -10,7 +10,6 @@ import Cta from './components/cta'
 export default function Home() {
   return (
     <>
-      <SeoMeta title="page title" url="/" description=" " />
       <Banner />
       <Business_Expense />
       <Services />
