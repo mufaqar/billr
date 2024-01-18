@@ -20,7 +20,7 @@ const Header = () => {
                     <button className='md:hidden block text-3xl' onClick={() => setOpen(!open)}>
                         {!open === true ? (<FaBars />) : (<IoMdClose />)}
                     </button>
-                    <ul className={`md:flex-row flex-col md:gap-16 gap-5 md:justify-between md:items-center md:bg-white md:static md:px-0 md:py-0 ${open === true ? "flex absolute bg-red-900 top-20 left-0 right-0 px-5 py-10" : "md:flex hidden "}`}>
+                    <ul className={`md:flex-row flex-col md:gap-16 gap-5 md:justify-between md:items-center md:bg-white md:static md:px-0 md:py-0 ${open === true ? "flex absolute bg-white top-20 left-0 right-0 px-5 py-10" : "md:flex hidden "}`}>
                         {NavLinks?.map((item: any, idx: any) => {
                             return <li key={idx}>
                                 <Link href={item?.link} className='text-base font-normal text-black hover:text-primary'>
