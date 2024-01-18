@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <header className='bg-white py-5 shadow-3xl'>
             <div className='container mx-auto px-4 flex md:flex-row flex-row items-center justify-between '>
-                <div className='md:w-1/4 w-1/2'>
+                <div className='md:w-1/4 w-1/2'> 
                     <Link href="/" className='inline-block'>
                         <Image src="/images/logo.png" alt='logo' width={180} height={67} />
                     </Link>
