@@ -13,7 +13,7 @@ const Header = () => {
             <div className='container mx-auto px-4 flex md:flex-row flex-row items-center justify-between '>
                 <div className='md:w-1/4 w-1/2'> 
                     <Link href="/" className='inline-block'>
-                        <Image src="/images/logo.png" alt='Logo' width={180} height={67} />
+                        <Image src="/images/billr.png" alt='Logo' width={180} height={67} />
                     </Link>
                 </div>
                 <nav className='md:w-3/4 w-1/2 flex justify-end'>
