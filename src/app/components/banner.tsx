@@ -13,7 +13,7 @@ const Banner = () => {
                     <p className='text-2xl font-medium text-black mt-6 max-w-[569px]'>
                         With Billr, you can ear points on all your business transactions. We provide the tools so business owners can get rewarded for every business expense, even when suppliers don’t accept credit cards!
                     </p>
-                    <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-white px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[325px]'>
+                    <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-white hover:text-primary px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[325px]'>
                         Get Started
                     </Link>
                 </div>
