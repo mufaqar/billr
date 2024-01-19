@@ -1,6 +1,8 @@
 "use client"
 import React, { useState } from 'react'
 import { FaCaretDown } from 'react-icons/fa'
+import { motion } from 'framer-motion'
+import { fadeUp } from '../const/animation'
 
 const FaqBox = ({ item, que, ans }: any) => {
     const [open, setOpen] = useState<any>(1);
@@ -11,7 +13,12 @@ const FaqBox = ({ item, que, ans }: any) => {
         setOpen(id)
     }
     return (
-        <div className='bg-white border border-primary p-5 rounded-[20px]'>
+        <motion.div
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true, amount: 0.6 }}
+            variants={fadeUp}
+            className='bg-white border border-primary p-5 rounded-[20px]'>
             <h3
                 onClick={() => handleFaq(item)}
                 className='md:text-4xl text-2xl font-bold text-lightGreen flex justify-between items-center gap-8 cursor-pointer'>
@@ -23,7 +30,7 @@ const FaqBox = ({ item, que, ans }: any) => {
             <p className={`md:text-2xl text-lg font-normal text-lightGreen mt-8 ${open === item ? "block" : "hidden"}`}>
                 {ans}
             </p>
-        </div>
+        </motion.div>
     )
 }
 

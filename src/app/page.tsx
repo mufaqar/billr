@@ -1,4 +1,4 @@
-
+'use client'
 import Banner from './components/banner'
 import Business_Expense from './components/business-expens'
 import Services from './components/services'

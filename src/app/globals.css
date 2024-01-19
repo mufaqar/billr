@@ -29,6 +29,9 @@
     font-family: 'PoppinsRegular';
   }
   
+  body{
+    overflow-x: hidden;
+  }
   body,
   * {
     box-sizing: border-box;

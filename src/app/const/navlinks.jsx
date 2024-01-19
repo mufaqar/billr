@@ -1,18 +1,18 @@
 export const NavLinks = [
     {
         name: "Our Plataform",
-        link: "#",
+        link: "#platform",
     },
     {
         name: "How it works",
-        link: "#",
+        link: "#how-it-works",
     },
     {
         name: "Why Billr?",
-        link: "#",
+        link: "#why-billr",
     },
     {
         name: "FAQ",
-        link: "#",
+        link: "#faq",
     },
 ]

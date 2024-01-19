@@ -1,14 +1,21 @@
 import Link from 'next/link'
 import React from 'react'
 import WorkBox from './workbox'
+import { motion } from 'framer-motion'
+import { fadeUp } from '../const/animation'
 
 const HowIt_Works = () => {
     return (
-        <section className='py-16'>
+        <section className='py-16' id='how-it-works'>
             <div className='container mx-auto px-4'>
-                <h2 className='md:text-6xl text-4xl font-bold text-primary text-center mb-10'>
+                <motion.h2
+                    initial="offscreen"
+                    whileInView="onscreen"
+                    viewport={{ once: true, amount: 0.6 }}
+                    variants={fadeUp}
+                    className='md:text-6xl text-4xl font-bold text-primary text-center mb-10'>
                     How it Works
-                </h2>
+                </motion.h2>
                 <div className='flex flex-col gap-10 mb-14'>
                     <WorkBox
                         flex_dir="md:flex-row flex-col"
@@ -29,11 +36,15 @@ const HowIt_Works = () => {
                         img="/images/payment.png"
                     />
                 </div>
-                <div>
+                <motion.div
+                    initial="offscreen"
+                    whileInView="onscreen"
+                    viewport={{ once: true, amount: 0.6 }}
+                    variants={fadeUp}>
                     <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-secondary px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[635px] mx-auto'>
                         Join Billr Free
                     </Link>
-                </div>
+                </motion.div>
             </div>
         </section>
     )
