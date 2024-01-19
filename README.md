@@ -8,4 +8,4 @@ https://github.com/Billr-AU/billr-ld
 https://github.com/mufaqar/billr
 
 
-git remote set-url origin https://github.com/Billr-AU/billr-ld
+git remote set-url origin https://github.com/mufaqar/billr
