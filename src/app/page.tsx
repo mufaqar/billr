@@ -9,7 +9,7 @@ import Cta from './components/cta'
 
 export default function Home() {
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Banner />
       <Business_Expense />
       <Services />
@@ -17,6 +17,6 @@ export default function Home() {
       <BlogSec />
       <Faq_Sec />
       <Cta />
-    </>
+    </div>
   )
 }
