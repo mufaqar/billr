@@ -6,3 +6,6 @@ https://billr1.vercel.app/
 
 https://github.com/Billr-AU/billr-ld
 https://github.com/mufaqar/billr
+
+
+git remote set-url origin https://github.com/Billr-AU/billr-ld
