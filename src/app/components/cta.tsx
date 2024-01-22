@@ -17,7 +17,7 @@ const Cta = () => {
                     <h2 className='md:text-5xl text-4xl font-bold text-secondary'>
                         Start Earning More Points Today!
                     </h2>
-                    <Link href="https://app.billr.com.au/" target='_blank' className='text-lg font-bold text-lightGreen bg-white hover:bg-secondary hover:text-white px-6 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[279px]'>
+                    <Link href="#" target='_blank' className='text-lg font-bold text-lightGreen bg-white hover:bg-secondary hover:text-white px-6 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[279px]'>
                         Join Free
                     </Link>
                 </motion.div>

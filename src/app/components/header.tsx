@@ -29,12 +29,12 @@ const Header = () => {
                             </li>
                         })}
                         <li>
-                            <Link href="https://app.billr.com.au/" target='_blank' className='text-lg font-bold text-black hover:text-primary'>
+                            <Link href="#" target='_blank' className='text-lg font-bold text-black hover:text-primary'>
                                 Login
                             </Link>
                         </li>
                         <li>
-                            <Link href="https://app.billr.com.au/" target='_blank' className='text-lg font-bold text-white bg-primary hover:bg-secondary px-14 py-3 rounded-lg shadow-md block'>
+                            <Link href="#" target='_blank' className='text-lg font-bold text-white bg-primary hover:bg-secondary px-14 py-3 rounded-lg shadow-md block'>
                                 Sign Up
                             </Link>
                         </li>
