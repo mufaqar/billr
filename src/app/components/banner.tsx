@@ -1,12 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeUp } from '../const/animation'
-import Model from './model'
 
 const Banner = () => {
-    const [open, setOpen] = useState(false)
+
     return (
         <section className='py-10 md:px-0 px-5'>
             <div className='container mx-auto px-4 flex md:flex-row flex-col gap-10 justify-between bg-secondary md:p-16 py-20 rounded-[40px]'>
@@ -32,11 +31,9 @@ const Banner = () => {
                         initial="offscreen"
                         whileInView="onscreen"
                         viewport={{ once: true, amount: 0.6 }} >
-                        <button
-                            onClick={() => setOpen(true)}
-                            className='text-lg font-bold text-white bg-primary hover:bg-white hover:text-primary px-16 py-3 rounded-lg shadow-md block text-center md:mt-16 mt-8 max-w-[325px] w-full'>
+                        <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-white hover:text-primary px-16 py-3 rounded-lg shadow-md block text-center md:mt-16 mt-8 max-w-[325px]'>
                             Join Free
-                        </button>
+                        </Link>
                     </motion.div>
                 </div>
                 <div className='md:w-1/2 w-full'>
@@ -78,7 +75,6 @@ const Banner = () => {
                     </motion.div>
                 </div>
             </div>
-            <Model setOpen={setOpen} open={open} />
         </section>
     )
 }

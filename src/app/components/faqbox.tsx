@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { fadeUp } from '../const/animation'
 
 const FaqBox = ({ item, que, ans }: any) => {
-    const [open, setOpen] = useState<any>(1);
+    const [open, setOpen] = useState<any>(null);
     const handleFaq = (id: any) => {
         if (open === id) {
             return setOpen(null)
