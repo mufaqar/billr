@@ -13,7 +13,7 @@ const BlogSec = () => {
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
           variants={fadeUp}
-          className='md:text-6xl text-4xl font-bold text-primary text-center mb-10'>
+          className='md:text-[40px] md:leading-[52px] text-4xl font-bold text-primary text-center mb-10'>
           Why choose Billr?
         </motion.h2>
         <div className='grid md:grid-cols-3 grid-cols-1 gap-8 '>

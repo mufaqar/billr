@@ -13,7 +13,7 @@ const Services = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.6 }}
                     variants={fadeUp}
-                    className='md:text-6xl text-4xl font-bold text-primary text-center mb-10'>
+                    className='md:text-[40px] md:leading-[52px] text-4xl font-bold text-primary text-center mb-10'>
                     What our platform does for you
                 </motion.h2>
                 <div className='grid md:grid-cols-2 grid-cols-1 gap-7 mb-14'>
@@ -53,8 +53,8 @@ const Services = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.6 }}
                     variants={fadeUp}>
-                    <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-secondary px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[635px] mx-auto'>
-                        Get Started
+                    <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-secondary px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[306px] mx-auto'>
+                        Join Free
                     </Link>
                 </motion.div>
             </div>

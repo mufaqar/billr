@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <div className='overflow-x-hidden'>
       <Banner />
-      <Business_Expense />
+      {/* <Business_Expense /> */}
       <Services />
       <HowIt_Works />
-      <BlogSec />
+      {/* <BlogSec /> */}
       <Faq_Sec />
       <Cta />
     </div>

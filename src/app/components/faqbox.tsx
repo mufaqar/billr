@@ -21,7 +21,7 @@ const FaqBox = ({ item, que, ans }: any) => {
             className='bg-white border border-primary p-5 rounded-[20px]'>
             <h3
                 onClick={() => handleFaq(item)}
-                className='md:text-4xl text-2xl font-bold text-lightGreen flex justify-between items-center gap-8 cursor-pointer'>
+                className='md:text-3xl text-xl font-bold text-lightGreen flex justify-between items-center gap-8 cursor-pointer'>
                 <span>
                     {que}
                 </span>

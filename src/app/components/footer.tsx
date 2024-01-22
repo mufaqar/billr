@@ -14,17 +14,7 @@ const Footer = () => {
           <ul className='flex flex-col gap-2'>
             <li>
               <Link href="#" className='text-xl font-medium text-white hover:text-primary'>
-                Lorem Impson
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className='text-xl font-medium text-white hover:text-primary'>
-                Lorem Impson
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className='text-xl font-medium text-white hover:text-primary'>
-                Lorem Impson
+                Contact Us
               </Link>
             </li>
           </ul>
@@ -44,11 +34,6 @@ const Footer = () => {
                 Terms of service
               </Link>
             </li>
-            <li>
-              <Link href="#" className='text-xl font-medium text-white hover:text-primary'>
-                Lorem Impson
-              </Link>
-            </li>
           </ul>
         </div>
         <div className='md:w-1/4 w-full'>
@@ -56,16 +41,6 @@ const Footer = () => {
             Stay conected
           </h6>
           <ul className='flex flex-row gap-3'>
-            <li>
-              <Link href="#" className='text-3xl font-medium text-secondary hover:text-primary'>
-                <FaFacebookF />
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className='text-3xl font-medium text-secondary hover:text-primary'>
-                <FaInstagram />
-              </Link>
-            </li>
             <li>
               <Link href="#" className='text-3xl font-medium text-secondary hover:text-primary'>
                 <FaLinkedinIn />
@@ -77,11 +52,11 @@ const Footer = () => {
       <div className='container mx-auto px-4 flex md:flex-row flex-col gap-7 justify-between pt-10 pb-8 items-center'>
         <div className='md:w-1/4 w-full'>
           <Link href="/" className='inline-block'>
-            <Image src="/images/footer-logo.png" alt='footer-logo' width={162} height={62} />
+            <Image src="/images/footer-logo.png" alt='footer-logo' width={136} height={59} />
           </Link>
         </div>
         <div className='md:w-1/4 w-full'>
-          <p className='text-sm font-normal text-white md:text-end'>
+          <p className='text-sm font-normal text-white max-w-[236px]'>
             © 2023 Billr Ltd. All Rights Reserved.
           </p>
         </div>
