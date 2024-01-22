@@ -46,7 +46,7 @@ const Footer = () => {
             </h6>
             <ul className='flex flex-row gap-3'>
               <li>
-                <Link href="#" className='text-3xl font-medium text-secondary hover:text-primary'>
+                <Link href="https://www.linkedin.com/company/billrau/" target='_blank' className='text-3xl font-medium text-secondary hover:text-primary'>
                   <FaLinkedinIn />
                 </Link>
               </li>
