@@ -15,8 +15,8 @@ const Banner = () => {
                         initial="offscreen"
                         animate="onscreen"
                         viewport={{ once: true, amount: 0.6 }}
-                        className='md:text-[28px] md:leading-[40px] text-2xl font-bold text-black max-w-[450px]'>
-                        <span className='md:text-4xl text-2xl'>Maximise</span><br /> Cash Flow & Earn More Frequent Flyer Points
+                        className='md:text-[32px] md:leading-[40px] text-2xl font-bold text-black max-w-[450px]'>
+                        <span className='md:text-[40px] text-2xl font-extrabold'>Maximise</span><br /> Cash Flow & Earn More Frequent Flyer Points
                     </motion.h1>
                     <motion.p
                         variants={fadeUp}
