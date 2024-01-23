@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <section className='py-10 md:px-0 px-5'>
             <div className='container mx-auto px-4 flex md:flex-row flex-col gap-10 justify-between bg-secondary md:px-8 md:pt-20 md:pb-10 py-20 rounded-[40px]'>
-                <div className='md:w-[40%] w-full'>
+                <div className='md:w-[40%] w-full banner'>
                     <motion.h1
                         variants={fadeUp}
                         initial="offscreen"

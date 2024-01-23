@@ -29,6 +29,8 @@ a {
   font-family: 'PoppinsRegular';
 }
 
+.banner h1 span {font-family: 'PoppinsBold';}
+
 body,
 * {
   box-sizing: border-box;
