@@ -29,13 +29,13 @@ const Footer = () => {
             </h6>
             <ul className='flex flex-col gap-2'>
               <li>
-                <Link href="#" className='text-xl font-medium text-white hover:text-primary'>
-                  Privacy Police
+                <Link href="/privacy-policy" className='text-xl font-medium text-white hover:text-primary'>
+                  Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className='text-xl font-medium text-white hover:text-primary'>
-                  Terms of service
+                <Link href="/terms-and-conditions" className='text-xl font-medium text-white hover:text-primary'>
+                  Terms and Conditions
                 </Link>
               </li>
             </ul>
