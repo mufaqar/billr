@@ -8,7 +8,7 @@ const ServiceBox = ({ flex_dir, title, content, img }: any) => {
         <motion.div
             initial="offscreen"
             whileInView="onscreen"
-            viewport={{ once: true, amount: 0.6 }}
+            viewport={{ once: true, amount: 0.2 }}
             variants={fadeUp}
             className={`bg-[#BCAEFF]/20 md:p-12 p-10 rounded-[40px] gap-8 flex ${flex_dir}`}>
             <div className='w-full'>
