@@ -18,7 +18,7 @@ const FaqBox = ({ item, que, ans }: any) => {
             whileInView="onscreen"
             viewport={{ once: true, amount: 0.6 }}
             variants={fadeUp}
-            className='bg-white border border-primary p-5 rounded-[20px]'>
+            className='bg-white/60 border border-primary p-5 rounded-[20px]'>
             <h3
                 onClick={() => handleFaq(item)}
                 className='md:text-3xl text-xl font-bold text-lightGreen flex justify-between items-center gap-8 cursor-pointer'>

@@ -7,7 +7,7 @@ import { fadeUp } from '../const/animation'
 
 const Faq_Sec = () => {
     return (
-        <section className='py-16 bg-secondary/30 bg-blend-overlay bg-[url("/images/faq.png")] bg-no-repeat bg-centerm bg-[left_calc(80%)_top_calc(40%)]' id='faq'>
+        <section className='py-16 bg-secondary/30 bg-blend-overlay ' id='faq'>
             <div className='container mx-auto px-4'>
                 <motion.h2
                     initial="offscreen"
@@ -17,7 +17,7 @@ const Faq_Sec = () => {
                     className='md:text-[40px] md:leading-[52px] text-4xl font-bold text-primary text-center mb-10'>
                     Frequently Asked Questions
                 </motion.h2>
-                <div className='flex md:flex-row flex-col gap-8'>
+                <div className='flex md:flex-row flex-col gap-8 bg-[url("/images/faq.png")] bg-no-repeat bg-contain bg-[80%_50%]'>
                     <div className='md:w-[60%] flex flex-col gap-8'>
                         {Faqs?.map((faq: any, index: number) => (
                             <FaqBox key={index}
