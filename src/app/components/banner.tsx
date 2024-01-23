@@ -15,15 +15,15 @@ const Banner = () => {
                         initial="offscreen"
                         animate="onscreen"
                         viewport={{ once: true, amount: 0.6 }}
-                        className='md:text-[28px] md:leading-[52px] text-4xl font-bold text-black max-w-[450px]'>
-                        Maximise Cash Flow & Earn More Frequent Flyer Points
+                        className='md:text-[28px] md:leading-[40px] text-2xl font-bold text-black max-w-[450px]'>
+                        <span className='md:text-4xl text-2xl'>Maximise</span><br /> Cash Flow & Earn More Frequent Flyer Points
                     </motion.h1>
                     <motion.p
                         variants={fadeUp}
                         initial="offscreen"
                         whileInView="onscreen"
                         viewport={{ once: true, amount: 0.6 }}
-                        className='text-base font-medium text-black mt-10 max-w-[420px]'>
+                        className='text-base font-medium text-black mt-6 max-w-[420px]'>
                         Experience the smart way to boost cash flow and maximise credit card rewards on every supplier payment with Billr!
                     </motion.p>
                     <motion.div
@@ -44,15 +44,15 @@ const Banner = () => {
                         viewport={{ once: true, amount: 0.8 }}
                         className='relative'>
                         <Image src="/images/banner1.png" alt="banner1" width={454} height={565} className='object-cover w-full' />
-                        <ul className='flex gap-2 md:mt-10 mt-8 items-center justify-end w-fit md:ml-auto'>
+                        <ul className='flex gap-5 md:mt-10 mt-8 items-center justify-center w-full md:pl-10'>
                             <li>
-                                <Image src="/images/b-reward.png" alt="b-reward" width={232} height={76} className='' />
+                                <Image src="/images/australia.png" alt="australia" width={168} height={61} className='' />
                             </li>
                             <li>
-                                <Image src="/images/australia.png" alt="australia" width={232} height={76} className='' />
+                                <Image src="/images/b-reward.png" alt="b-reward" width={168} height={61} className='' />
                             </li>
                         </ul>
-                        <div className='bg-lightGreen py-6 px-10 rounded-2xl max-w-[250px] static md:mt-0 mt-8 md:absolute md:-left-32 left-0 bottom-12'>
+                        <div className='bg-lightGreen py-6 px-10 rounded-2xl max-w-[242px] static md:mt-0 mt-8 md:absolute md:-left-32 left-0 bottom-12'>
                             <Image src="/images/list-before.png" alt="img" width={68} height={69} className='absolute -top-5 -right-5' />
                             <ul className='list-disc flex flex-col gap-2'>
                                 <li className='text-sm font-bold text-white'>

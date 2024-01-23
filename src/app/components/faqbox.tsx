@@ -27,7 +27,7 @@ const FaqBox = ({ item, que, ans }: any) => {
                 </span>
                 <FaCaretDown />
             </h3>
-            <p className={`md:text-2xl text-lg font-normal text-lightGreen mt-8 ${open === item ? "block" : "hidden"}`}>
+            <p className={`text-base font-normal text-lightGreen mt-8 ${open === item ? "block" : "hidden"}`}>
                 {ans}
             </p>
         </motion.div>
