@@ -13,7 +13,7 @@ const HowIt_Works = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.6 }}
                     variants={fadeUp}
-                    className='md:text-[40px] md:leading-[52px] text-4xl font-bold text-primary text-center mb-10'>
+                    className='md:text-4xl text-2xl font-bold text-primary text-center mb-10'>
                     How it Works
                 </motion.h2>
                 <div className='flex flex-col gap-10 mb-14'>
@@ -41,7 +41,7 @@ const HowIt_Works = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.6 }}
                     variants={fadeUp}>
-                    <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-secondary px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[306px] mx-auto'>
+                    <Link href="#" className='text-lg font-bold text-white bg-primary hover:bg-secondary px-16 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[250px] mx-auto'>
                         Join Free
                     </Link>
                 </motion.div>

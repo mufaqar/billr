@@ -12,10 +12,10 @@ const WorkBox = ({ flex_dir, title, content, img }: any) => {
                 viewport={{ once: true, amount: 0.6 }}
                 variants={fadeLeft}
                 className='w-full'>
-                <h3 className='md:text-[32px] md:leading-[64px] text-2xl  font-bold text-lightGreen mb-8'>
+                <h3 className='md:text-[28px] md:leading-[64px] text-xl font-bold text-lightGreen mb-8'>
                     {title}
                 </h3>
-                <p className='md:text-xl text-base font-normal text-lightGreen'>
+                <p className='text-base font-normal text-lightGreen'>
                     {content}
                 </p>
             </motion.div>

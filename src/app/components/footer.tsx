@@ -12,36 +12,36 @@ const Footer = () => {
       <Model setOpen={setOpen} open={open} /><footer className='bg-lightGreen'>
         <div className='container mx-auto px-4 flex md:flex-row flex-col gap-7 justify-between pt-16 pb-10'>
           <div className='md:w-1/4 w-full'>
-            <h6 className='text-xl font-bold text-white mb-6'>
+            <h6 className='text-base font-bold text-white mb-6'>
               Contact Information
             </h6>
             <ul className='flex flex-col gap-2'>
               <li>
-                <span onClick={() => setOpen(true)} className='text-xl font-medium text-white hover:text-primary cursor-pointer'>
+                <span onClick={() => setOpen(true)} className='text-base font-medium text-white hover:text-primary cursor-pointer'>
                   Contact Us
                 </span>
               </li>
             </ul>
           </div>
           <div className='md:w-1/2 w-full'>
-            <h6 className='text-xl font-bold text-white mb-6'>
+            <h6 className='text-base font-bold text-white mb-6'>
               Legal
             </h6>
             <ul className='flex flex-col gap-2'>
               <li>
-                <Link href="/privacy-policy" className='text-xl font-medium text-white hover:text-primary'>
+                <Link href="/privacy-policy" className='text-base font-medium text-white hover:text-primary'>
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="/terms-and-conditions" className='text-xl font-medium text-white hover:text-primary'>
+                <Link href="/terms-and-conditions" className='text-base font-medium text-white hover:text-primary'>
                   Terms and Conditions
                 </Link>
               </li>
             </ul>
           </div>
           <div className='md:w-1/4 w-full'>
-            <h6 className='text-xl font-bold text-white mb-6'>
+            <h6 className='text-base font-bold text-white mb-6'>
               Stay conected
             </h6>
             <ul className='flex flex-row gap-3'>

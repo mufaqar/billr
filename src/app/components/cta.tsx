@@ -14,10 +14,10 @@ const Cta = () => {
                     viewport={{ once: true, amount: 0.6 }}
                     variants={fadeLeft}
                     className='md:w-[60%] w-full bg-lightGreen md:p-10 p-6 rounded-[30px] max-w-[540px]'>
-                    <h2 className='md:text-5xl text-4xl font-bold text-secondary '>
+                    <h2 className='md:text-4xl text-2xl font-bold text-secondary '>
                         Start Earning More Points Today!
                     </h2>
-                    <Link href="#" target='_blank' className='text-lg font-bold text-lightGreen bg-white hover:bg-secondary hover:text-white px-6 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[279px]'>
+                    <Link href="#" target='_blank' className='text-lg font-bold text-lightGreen bg-white hover:bg-secondary hover:text-white px-6 py-3 rounded-lg shadow-md block text-center mt-6 max-w-[239px] mx-auto'>
                         Join Free
                     </Link>
                 </motion.div>

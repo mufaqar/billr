@@ -14,7 +14,7 @@ const Faq_Sec = () => {
                     whileInView="onscreen"
                     viewport={{ once: true, amount: 0.6 }}
                     variants={fadeUp}
-                    className='md:text-[40px] md:leading-[52px] text-4xl font-bold text-primary text-center mb-10'>
+                    className='md:text-4xl text-2xl font-bold text-primary text-center mb-10'>
                     Frequently Asked Questions
                 </motion.h2>
                 <div className='flex md:flex-row flex-col gap-8 bg-[url("/images/faq.png")] bg-no-repeat bg-contain bg-[80%_50%]'>
