@@ -4,56 +4,66 @@
 
 
 @font-face {
-    font-family: 'PoppinsBold';
-    src: url('../../public/fonts/Poppins-Bold.ttf');
-  }
-  
-  @font-face {
-    font-family: 'PoppinsRegular';
-    src: url('../../public/fonts/Poppins-Regular.ttf');
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'PoppinsBold';
-  }
-  
-  p,
-  li,
-  span,
-  a {
-    font-family: 'PoppinsRegular';
-  }
+  font-family: 'PoppinsBold';
+  src: url('../../public/fonts/Poppins-Bold.ttf');
+}
 
-  body,
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-.privacy_content h4,p,li,a{
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: url('../../public/fonts/Poppins-Regular.ttf');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PoppinsBold';
+}
+
+p,
+li,
+span,
+a {
+  font-family: 'PoppinsRegular';
+}
+
+body,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#privacy_content h4,
+#privacy_content p,
+#privacy_content li,
+#privacy_content a {
   color: #1F524D;
   font-size: 22px;
   line-height: 33px;
-  margin-bottom: 20px!important;
+  margin-bottom: 20px;
 }
-.privacy_content h4,a{
+
+#privacy_content h4,
+a {
   font-weight: bold;
 }
-.privacy_content p,li,span{
+
+#privacy_content p,
+#privacy_content li,
+#privacy_content span {
   font-weight: normal;
 }
-.privacy_content ul{
-list-style-type: disc;
-list-style-position: inside;
+
+#privacy_content ul {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 /* @media (min-width: 1280px) {

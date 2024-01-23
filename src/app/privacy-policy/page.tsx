@@ -8,7 +8,7 @@ export default function Privacy_Policy() {
             <PageBanner title="Privacy Policy" />
             <section className='py-16'>
                 <div className='container mx-auto px-4'>
-                    <div className='privacy_content max-w-[1189px] mx-auto'>
+                    <div className='max-w-[1189px] mx-auto' id='privacy_content'>
                         <p>
                             <Link href="#">Billr Pty Ltd ACN 672 565 641 (“Billr.com.au”, “we”, “us” or “our”)</Link> provides a payment platform and related services available via its applications and website available at <Link href="#">https://www.billr.com.au/</Link>. This Privacy Policy applies to any personal information provided in your use of our services or website and in any other dealings with us. This Privacy Policy is part of our Terms of Service available on our website.
                         </p>
