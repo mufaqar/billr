@@ -9,7 +9,7 @@ import { IoMdClose } from "react-icons/io";
 const Header = () => {
     const [open, setOpen] = useState(false)
     return (
-        <header className='bg-white py-5 shadow-3xl'>
+        <header className='bg-white py-4 shadow-3xl'>
             <div className='container mx-auto px-4 flex md:flex-row flex-row items-center justify-between '>
                 <div className='md:w-1/4 w-1/2'>
                     <Link href="/" className='inline-block'>
